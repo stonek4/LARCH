@@ -1,0 +1,24 @@
+BUGS AND FEATURES (no particular order except the first...)
+
+1. Make sure that statements are correctly graded... this is first and foremost.
+2. When nodes are deleted, find a way to get large trees to shrink in size.
+3. When clicking the buttons in the header, have the symbol get placed at the
+location of the cursor in the statement, and not to the end of the statement.
+4. Make uploading and opening a file one button.
+5. Make the code cleaner and document better.
+6. When adding nodes and then trying to delete all of the nodes, the second
+to top node sometimes wont delete... this one blows my mind.
+7. Add more keyboard shortcuts.
+8. Talk to Bram about adding this to a website where files can be submitted.
+9. Change the interface to make it look nicer.
+10. Work on the 'widen' algorithm so that the tree grows perfectly.
+11. Allow the marking of premises.
+12. Add some form of navigation so you can easily access certain tree nodes.
+13. Speed up the file reading time.
+14. Add a zoom button
+15. Add a help button
+16. Make a better tutorial
+17. Have an auto tree generator
+18. Make the program work with the univeral quantifiers
+19. Change the colors
+20. Work on file conversion (file is a JSON array of objects)

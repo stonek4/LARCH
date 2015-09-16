@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+        <title>LARCH: Truth Tree Maker</title>
+        <link rel="stylesheet" href="files/style.css">
+        <script type="text/javascript">
+            <!--
+
+            //-->
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <center>
+                    <form id="saveform">
+                        <input type="text" id="savefile"/>
+                    </form>
+                    <div id="save">SAVE</div>
+                    <form id="loadform">
+                        <input type="file" id="loadfile"/>
+                    </form>
+                    <div id="upload">UPLD</div>
+                    <div id="load">LOAD</div>
+                    <div id="headercenter">
+                        <div id="deletemode">✗</div>
+                        <div id="editmode">➕</div>
+                        <div id="gradework">✓</div>
+                        <div id="notb">¬</div>
+                        <div id="andb">∧</div>
+                        <div id="orb">∨</div>
+                        <div id="ifthenb">→</div>
+                        <div id="ifonlyb">↔</div>
+                        <div id="existsb">∃</div>
+                        <div id="forallb">∀</div>
+                    </div>
+                    <div id="viewchecks"></div>
+                </center>
+            </div>
+            <center>
+                <div id="greenhouse">
+                    <div class="node" id="0">
+                        <div class="nodetop">
+                            <div class="nodetitle">
+                                <div class="name">#0</div>
+                                <div class="checks">Checks: </div>
+                                <div class="checksalt">Checks: [Hover]</div>
+                            </div>
+                            <div style="wait" class="clickhere">Click Here</div>
+                            <form class="aform" name="aform">
+                                <BR>
+                                <input type="text" class="statement" name="statement"/>
+                            </form>
+                            <div class="displaystate"></div>
+                        </div>
+                        <div class="nodebottom">
+                            <div class="single">▄</div>
+                            <div class="double">▞</div>
+                            <div class="close">❌</div>
+                            <div class="open">🔴</div>
+                            <div class="addcheck">Add/Rem Check(s)</div>
+                            <div class="add">Add</div>
+                            <div class="remove">Remove</div>
+                            <div class="done">Done</div>
+                            <div class="delete">Delete</div>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <script src ="files/treecreation.js">
+        </script>
+    </body>
+</html>

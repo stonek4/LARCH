@@ -1,0 +1,377 @@
+html
+{
+	background-color:black;
+	margin:0;
+	padding:0;
+    width:100%;
+	height:100%;
+	font-family:"Times New Roman", Times, serif;
+}
+a
+{
+	font-family:"The Girl Next Door", cursive;
+	font-size: 20px;
+	text-decoration:none;
+	outline:0;
+	color:#FF0099;
+}
+a:hover
+{
+	color:#FF6699;
+}
+li
+{
+}
+ul
+{
+}
+h1
+{
+
+}
+h2
+{
+    font-family:Tahoma, Geneva, sans-serif;
+	font-size:20px;
+}
+h3
+{
+    font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	margin-top:-32px;
+}
+body
+{
+	margin:0;
+    width:100%;
+	padding:0;
+	height:100%;
+}
+#container
+{
+	min-height:100%;
+	width:100%;
+	height:auto !important;
+	height:100%;
+	margin-bottom:-102px;
+}
+#header
+{
+    width:100%;
+    height:40px;
+    background-color:grey;
+    position:fixed;
+    margin-bottom:30px;
+    z-index:2;
+}
+#saveform
+{
+	margin-left:20px;
+	float: left;
+	margin-top:10px;
+}
+#save
+{
+	width: 50px;
+	height: 36px;
+	margin-top: 2px;
+	float: left;
+	background-color: rgb(173, 133, 92);
+	margin-left: 2px;
+}
+#loadfile
+{
+	margin-top: 10px;
+	float:left;
+}
+#upload
+{
+	width: 50px;
+	float: left;
+	height: 36px;
+	margin-top: 2px;
+	background-color: rgb(173, 133, 92);
+	margin-left: 2px;
+}
+#load
+{
+	width: 50px;
+	float: left;
+	height: 36px;
+	margin-top: 2px;
+	background-color: rgb(173, 133, 92);
+	margin-left: 2px;
+}
+
+#viewchecks
+{
+	width: 50px;
+	float: right;
+	height: 36px;
+	margin-top: 2px;
+	margin-right: 20px;
+	background-color: black;
+}
+#headercenter
+{
+   margin-left:200px;
+   width:500px;
+}
+#deletemode
+{
+    height:36px;
+    width:50px;
+    background-color:red;
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#editmode
+{
+	height:36px;
+    width:50px;
+    background-color:blue;
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#gradework
+{
+    height:36px;
+    width:50px;
+    background-color:green;
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#notb
+{
+    height:36px;
+    width:36px;
+	background-color:rgb(204, 178, 153);
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#andb
+{
+    height:36px;
+    width:36px;
+	background-color:rgb(204, 178, 153);
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#orb
+{
+    height:36px;
+    width:36px;
+	background-color:rgb(204, 178, 153);
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#ifthenb
+{
+    height:36px;
+    width:36px;
+	background-color:rgb(204, 178, 153);
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#ifonlyb
+{
+    height:36px;
+    width:36px;
+	background-color:rgb(204, 178, 153);
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#forallb
+{
+    height:36px;
+    width:36px;
+	background-color:rgb(204, 178, 153);
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#existsb
+{
+    height:36px;
+    width:36px;
+	background-color:rgb(204, 178, 153);
+    margin-top:2px;
+    margin-left:2px;
+    float:left;
+	border-radius:5px;
+}
+#greenhouse
+{
+    margin-top:30px;
+	min-height:100%;
+    height:2000px;
+    width:100%;
+    padding-top:50px;
+    position:absolute;
+    z-index:1;
+}
+.node
+{
+    /*height: 100px;*/
+    width: 200px;
+    background-color:white;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+.nodetop
+{
+    /*height:70px;*/
+    width:100%;
+}
+.nodetitle
+{
+    width:100%;
+    height:20px;
+}
+.name
+{
+    margin-left:10px;
+    float:left;
+}
+.checks
+{
+    margin-left:20px;
+    float:left;
+}
+.checksalt
+{
+    margin-left:20px;
+    float:left;
+}
+.checksalt:hover
+{
+    background-color:green;
+}
+.clickhere
+{
+    height:100%;
+    width:100%;
+	font-size:14px;
+}
+.aform
+{
+	margin-bottom:10px;
+}
+.displaystate
+{
+    font-size:14px;
+	word-wrap: break-word;
+}
+.nodebottom
+{
+	margin-top:5px;
+    height:30px;
+    width:100%;
+}
+.single
+{
+    width:25%;
+    height:30px;
+    background-color:rgb(204, 178, 153);
+    float:left;
+    border-bottom-left-radius:10px;
+}
+.double
+{
+    width:25%;
+    height:30px;
+    background-color:rgb(173, 133, 92);
+    float:left;
+}
+.close
+{
+    width:25%;
+    height:30px;
+    background-color:rgb(153, 102, 51);
+    float:left;
+}
+.open
+{
+    width:25%;
+    height:30px;
+    background-color:rgb(107, 71, 36);
+    float:left;
+    border-bottom-right-radius:10px;
+}
+.addcheck
+{
+    width:100%;
+    height:30px;
+    background-color:green;
+    float:left;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.add
+{
+    width:100%;
+    height:30px;
+    background-color:green;
+    float:left;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.remove
+{
+    width:100%;
+    height:30px;
+    background-color:red;
+    float:left;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.done
+{
+    width:100%;
+    height:30px;
+    background-color:blue;
+    float:left;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.delete
+{
+    width:100%;
+    height:30px;
+    background-color:red;
+    float:left;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+#footer
+{
+	padding-top:10px;
+	width:100%;
+	height: 100px;
+	background: -webkit-linear-gradient(#A8A8A8, grey);
+	background: -o-linear-gradient(#A8A8A8, grey);
+	background: -moz-linear-gradient(#A8A8A8, grey);
+	background: linear-gradient(#A8A8A8, grey);
+	border-top-style:solid;
+	border-width:3px;
+	border-color:#FF0099;
+	clear:both;
+	bottom:0;
+}

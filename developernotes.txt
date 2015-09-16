@@ -1,0 +1,77 @@
+///////////////////////////////////LARCH////////////////////////////////////////
+ABOUT:
+Larch is a truth tree proof creating and checking web application.  The project
+is similar to Fitch.
+
+PROGRAM:
+The program consists of 3 files pretty much.  An HTML file, a CSS file, and a
+Javascript file.
+
+DEFAULT.HMTL:
+This file contains the html for the program.  The basic HTML structure is as
+follows.
+
+BODY------------------------------------------
+|CONTAINER------------------------------------
+||HEADER--------------------------------------
+|||    SAVEFORM/SAVE/LOADFORM/UPLOAD/LOAD/HEADERCENTER
+|||
+|||
+|||
+|||
+|||
+||GREENHOUSE----------------------------------
+|||                    NODE
+|||
+|||
+|||
+|||
+|||
+|||
+
+headercenter contains deletemode, editmode, gradework, and the symbol buttons
+
+NODE---------------------------
+|NODETOP-----------------------
+||          NODETITLE
+||
+||  CLICKHERE/AFORM/DISPLAYSTATE
+||
+|NODEBOTTOM-------------------
+||
+||  SINGLE/DOUBLE/OPEN/CLOSE
+||
+
+
+
+Nodes are the main things that run the program.  They change often especially
+the node bottom.  The above picture depicts the default buttons that show up.
+Study the HTML and learn it forwards and backwards, because it is EXTREMELY
+critical towards understanding the program.
+
+When either single or double is clicked, new nodes are created.  All nodes
+contain the same HTML as the first node object on the screen (they are cloned).
+
+If double is clicked, two new containers are created branchl and branchr. You
+can consider these sub greenhouses.  They each contain one node to begin with.
+
+Play around with the program with the browser developer tools open to see how it
+works.
+
+
+
+STYLE.CSS:
+Not much to say about the CSS, it is pretty basic stuff.  Because it all has
+visual effects, feel free to change it and see what happens.
+
+TREECREATION.JS:
+This is the main javascript that runs the program.  It can probably be broken
+down into smaller scripts, although it should be made into one script for final
+distribution.  The script has mainly functions, and events.  The events control
+the clicks and hovers, the functions are used in different events.  Please see
+the file itself for information on all of the functions and events.
+
+OTHER:
+As creator of this project, feel free to contact me.  I may not be around, but
+if I am I would definitely love to sit down with you and help you figure out the
+program (stonek4@rpi.edu).
