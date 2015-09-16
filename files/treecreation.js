@@ -1,18 +1,4 @@
 <!--
-
-/* Why are you looking at this? You actually want to try and do something to    *
-*  help this poor project???  Well... I feel bad for you but if you really are  *
-*  up to the challenge then be my guest.  I'm not going to take a way the       *
-*  the opportunity for you to slam you head against the wall, agonizing from    *
-*  the ridiculous javascript below this opening statement.  It's not too late   *
-*  to turn back!  Just close this project and look for a new one!!! No?  ok...  *
-*  well I documented this to the "best" of my ability but you still will need   *
-*  some patience in order to deal with this project.  It is in no way clean and *
-*  everything was done with the sole intention of simply "getting the job done."*
-*  If you have not read my project notes file, that would be a great place to   *
-*  start to try and understand what's going on here, otherwise... good luck!    */
-
-
 /*{ First off lets declare some global variables cause this is javascript and it doesn't
 really matter.
 
